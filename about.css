@@ -1,0 +1,55 @@
+body {
+    background: black;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Xanh Mono", "san serif";
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    /* letter-spacing: 0.01em;     */
+    font-family: "Poppins", "san serif";
+    color: #ffe005;
+}
+
+img {
+    border-radius: 50%;
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 0.01em;    
+    font-family: "Abril Fatface", "san serif";
+    color: white;
+}
+
+p {
+    text-align: center;
+    /* letter-spacing: 0.01em;     */
+    font-family: "Poppins", "san serif";
+    color: #ffe005;
+    font-size: 20px;
+}
+
+.facebook {
+    transform: translate(-110px, -38px);
+}
+
+.insta {
+    transform: translate(-520px, -31px);
+}
+
+.twitter {
+    transform: translate(-120px, -95px);
+}

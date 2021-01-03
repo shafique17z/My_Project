@@ -1,0 +1,272 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+/* 
+#container {
+    position: relative;
+} */
+
+#header {
+    padding-top: -25px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.05em; 
+    font-size: 23px;
+    text-align: center;    
+    color: #fff005;
+    padding: 5px;
+}
+
+ul li {
+    font-family: 'Poppins', sans-serif;
+    /* letter-spacing: 0.08em; */
+    display: inline;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 1px 12px;
+    border-radius: 30px;
+}
+
+li a:hover  {
+    border: 2px solid #fff005;
+}
+
+#menu-outer {
+    height: 25px;
+    padding: 4px;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+    padding-top: 0;
+    margin-top: 0px;
+	}
+	ul#horizontal-list li {
+        display: inline;
+        padding-right: 10px;
+        padding-left: 20px;
+        
+    }
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.text-block {
+    position: absolute;
+    /* bottom: 170px; */
+    /* right: 200px; */
+    background-color: white;
+    color: black;
+    /* padding-right: 710px; */
+    transform: translate(276px, -63px);
+    font-family: 'Poppins', cursive;
+    letter-spacing: -0.1em;
+
+}
+
+.underline {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover h1 {
+    border-bottom: 5px solid red;
+}
+
+.brief {
+    transform: translate(14px, -475px);
+    font-size: 48px;
+    letter-spacing: 0.04em;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+.happenLive {
+    transform: translate(15px, -475px);
+    font-size: 20px;
+    font-family: 'Poppins', cursive; 
+    color: #fff005;   
+}
+
+#hapLive {
+    text-decoration: none;
+}
+
+a:hover span{
+    
+    position: absolute;
+    border-bottom: 2px dashed rgb(255, 105, 180);
+    
+}
+a span{
+    position: absolute;
+}
+
+#rightHand {
+    border-top: 5px dotted tomato;
+    position: absolute;
+    transform: translate(15px, -410px);
+}
+
+.garamNews {
+    letter-spacing: .03em;
+    font-size: 25px;
+    color: rgb(89, 255, 238);
+    font-family: 'Oswald', cursive;
+}
+
+#garamHeadlines {
+    font-size: 15px;
+    font-family: 'Poppins', cursive;
+}
+
+
+#rightHand2 {
+    border-top: 5px dotted tomato;
+    position: absolute;
+    transform: translate(15px, -240px);
+}
+
+.garamNews2 {
+    letter-spacing: .03em;
+    font-size: 25px;
+    color: rgb(89, 255, 238);
+    font-family: 'Oswald', cursive;
+}
+
+#garamHeadlines2 {
+    font-size: 15px;
+    font-family: 'Poppins', cursive;
+}
+
+#readMore a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', cursive;
+    border-bottom: 2px solid #fff005;
+    position: absolute;
+    font-size: 15px;
+}
+
+#readMore2 a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', cursive;
+    border-bottom: 2px solid #fff005;
+    position: absolute;
+}
+
+#rightLinks {
+    transform: translate(1090px, -205px);
+    /* font-size: 35px; */
+    /* letter-spacing: 0.001em; */
+    /* border-top: 3px solid tomato;    */
+    /* font-family: 'Abril Fatface', cursive; */
+    /* position: relative; */
+}
+
+#rightLinks h3 {
+    transform: translate(1090px, -240px);
+    font-size: 23.5px; 
+    letter-spacing: 0.002em; 
+    border-top: 5px solid turquoise;    
+    font-family: 'Oswald', cursive;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+#rightLinks h3 a {
+    color: white;
+}
+
+#rightLinksBelowRL h3 {
+    transform: translate(1090px, -470px);
+    font-size: 23.5px; 
+    letter-spacing: 0.002em; 
+    border-top: 5px solid turquoise;    
+    font-family: 'Oswald', cursive;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+#rightLinksBelowRL h3 a {
+    color: white;
+}
+
+#rightLinksBelowRLBelowRL {
+    transform: translate(1090px, -427px);
+    font-size: 20.1px; 
+    letter-spacing: 0.002em; 
+    border-top: 5px solid turquoise;    
+    font-family: 'Oswald', cursive;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+#rightLinksBelowRLBelowRL h3 a {
+    color: white;
+}
+
+#rightLinksBelowRLBelowRLBRL {
+    transform: translate(1090px, -385px);
+    font-size: 20.1px; 
+    letter-spacing: 0.002em; 
+    border-top: 5px solid turquoise;
+    /* border-bottom: 2px dashed turquoise;     */
+    font-family: 'Oswald', cursive;
+    text-transform: uppercase;
+    position: absolute;
+}
+#rightLinksBelowRLBelowRLBRL a {
+    color: white;
+}
+
+.ImranKhanImage {
+    transform: translate(1090px, -525px);
+    opacity: 0.5;
+}
+
+.ImranKhanImage:hover {
+    opacity: 1;    
+}
+
+a {
+text-decoration: none;
+}
+
+.textForImrrunKhan h1 {
+    font-size: 14px;
+    color: white;
+    font-family: 'Poppins', cursive;
+    transform: translate(1090px, -833px);
+    position: absolute;
+    border-bottom: 4px dashed #fff005;
+    /* text-shadow: .5px .5px turquoise; */
+}   
+
+#footer {
+    transform: translate(0px, -343px);
+    background-color: aliceblue;
+    color: black;
+    font-size: 16px;
+    font-family: 'Poppins', cursive;
+}
